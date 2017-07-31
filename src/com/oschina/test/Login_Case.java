@@ -17,7 +17,7 @@ public class Login_Case {
 	private WebDriver driver;
 	private String Base_Url;
 	private String username = "zb194236@sina.com";
-	private String password = "zhb194236";
+	private String password = "zb194236";
   @BeforeMethod
   public void beforeMethod() {
 	  driver = new ChromeDriver();
