@@ -1,13 +1,9 @@
 package com.oschina.test;
 
 import org.testng.annotations.Test;
-
 import com.oschina.pom.OSLogin;
-
 import org.testng.annotations.BeforeMethod;
-
 import java.util.concurrent.TimeUnit;
-
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -78,5 +74,4 @@ public class Login_Case {
 	  //关闭浏览器
 	  driver.close();
   }
-
 }
