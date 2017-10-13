@@ -1,165 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="4" total="4" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Default Suite" duration-ms="23" started-at="2017-08-03T02:13:18Z" finished-at="2017-08-03T02:13:18Z">
+  <suite name="Suite" duration-ms="131381" started-at="2017-10-13T02:12:18Z" finished-at="2017-10-13T02:14:29Z">
     <groups>
     </groups>
-    <test name="OSChina" duration-ms="23" started-at="2017-08-03T02:13:18Z" finished-at="2017-08-03T02:13:18Z">
+    <test name="Test" duration-ms="131381" started-at="2017-10-13T02:12:18Z" finished-at="2017-10-13T02:14:29Z">
       <class name="com.oschina.test.Login_Case">
-        <test-method status="FAIL" signature="test_login_case(java.lang.String, java.lang.String)[pri:0, instance:com.oschina.test.Login_Case@3d8c7aca]" name="test_login_case" duration-ms="0" started-at="2017-08-03T10:13:18Z" finished-at="2017-08-03T10:13:18Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method test_login_case but has not been marked @Optional or defined
-in C:\Users\Veryci\.IntelliJIdea2017.1\system\temp-testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method test_login_case but has not been marked @Optional or defined
-in C:\Users\Veryci\.IntelliJIdea2017.1\system\temp-testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
-	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="beforeMethod" is-config="true" duration-ms="3032" started-at="2017-10-13T10:12:18Z" finished-at="2017-10-13T10:12:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_login_case()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="test_login_case" duration-ms="18672" started-at="2017-10-13T10:12:21Z" finished-at="2017-10-13T10:12:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_login_case -->
-        <test-method status="FAIL" signature="test_pwd_null_case(java.lang.String, java.lang.String)[pri:0, instance:com.oschina.test.Login_Case@3d8c7aca]" name="test_pwd_null_case" duration-ms="0" started-at="2017-08-03T10:13:18Z" finished-at="2017-08-03T10:13:18Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method test_pwd_null_case but has not been marked @Optional or defined
-in C:\Users\Veryci\.IntelliJIdea2017.1\system\temp-testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method test_pwd_null_case but has not been marked @Optional or defined
-in C:\Users\Veryci\.IntelliJIdea2017.1\system\temp-testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
-	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="afterMethod" is-config="true" duration-ms="2130" started-at="2017-10-13T10:12:40Z" finished-at="2017-10-13T10:12:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="beforeMethod" is-config="true" duration-ms="2060" started-at="2017-10-13T10:12:42Z" finished-at="2017-10-13T10:12:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_pwd_null_case()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="test_pwd_null_case" duration-ms="18543" started-at="2017-10-13T10:12:44Z" finished-at="2017-10-13T10:13:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_pwd_null_case -->
-        <test-method status="FAIL" signature="test_user_pwd_error_case(java.lang.String, java.lang.String)[pri:0, instance:com.oschina.test.Login_Case@3d8c7aca]" name="test_user_pwd_error_case" duration-ms="0" started-at="2017-08-03T10:13:18Z" finished-at="2017-08-03T10:13:18Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method test_user_pwd_error_case but has not been marked @Optional or defined
-in C:\Users\Veryci\.IntelliJIdea2017.1\system\temp-testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method test_user_pwd_error_case but has not been marked @Optional or defined
-in C:\Users\Veryci\.IntelliJIdea2017.1\system\temp-testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
-	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="afterMethod" is-config="true" duration-ms="171" started-at="2017-10-13T10:13:02Z" finished-at="2017-10-13T10:13:03Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_user_pwd_error_case -->
-        <test-method status="FAIL" signature="test_user_null_case(java.lang.String, java.lang.String)[pri:0, instance:com.oschina.test.Login_Case@3d8c7aca]" name="test_user_null_case" duration-ms="0" started-at="2017-08-03T10:13:18Z" finished-at="2017-08-03T10:13:18Z">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'username' is required by @Test on method test_user_null_case but has not been marked @Optional or defined
-in C:\Users\Veryci\.IntelliJIdea2017.1\system\temp-testng-customsuite.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'username' is required by @Test on method test_user_null_case but has not been marked @Optional or defined
-in C:\Users\Veryci\.IntelliJIdea2017.1\system\temp-testng-customsuite.xml
-	at org.testng.internal.Parameters.createParameters(Parameters.java:155)
-	at org.testng.internal.Parameters.createParameters(Parameters.java:358)
-	at org.testng.internal.Parameters.handleParameters(Parameters.java:450)
-	at org.testng.internal.Invoker.handleParameters(Invoker.java:1383)
-	at org.testng.internal.Invoker.createParameters(Invoker.java:1075)
-	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1180)
-	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)
-	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)
-	at org.testng.TestRunner.privateRun(TestRunner.java:767)
-	at org.testng.TestRunner.run(TestRunner.java:617)
-	at org.testng.SuiteRunner.runTest(SuiteRunner.java:348)
-	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:343)
-	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:305)
-	at org.testng.SuiteRunner.run(SuiteRunner.java:254)
-	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
-	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
-	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
-	at org.testng.TestNG.run(TestNG.java:1057)
-	at org.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:72)
-	at org.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:127)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="beforeMethod" is-config="true" duration-ms="2080" started-at="2017-10-13T10:13:03Z" finished-at="2017-10-13T10:13:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_user_null_case()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="test_user_null_case" duration-ms="17772" started-at="2017-10-13T10:13:05Z" finished-at="2017-10-13T10:13:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test_user_null_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="afterMethod" is-config="true" duration-ms="207" started-at="2017-10-13T10:13:22Z" finished-at="2017-10-13T10:13:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="beforeMethod" is-config="true" duration-ms="2143" started-at="2017-10-13T10:13:23Z" finished-at="2017-10-13T10:13:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="test_user_pwd_error_case()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="test_user_pwd_error_case" duration-ms="64258" started-at="2017-10-13T10:13:25Z" finished-at="2017-10-13T10:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_user_pwd_error_case -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.oschina.test.Login_Case@1b604f19]" name="afterMethod" is-config="true" duration-ms="269" started-at="2017-10-13T10:14:29Z" finished-at="2017-10-13T10:14:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
       </class> <!-- com.oschina.test.Login_Case -->
-    </test> <!-- OSChina -->
-  </suite> <!-- Default Suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
